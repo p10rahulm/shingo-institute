@@ -3,4 +3,5 @@ steps:
   args: ["-m", "rsync", "-r", "-c", "-d", "-x",".*yaml$",".", "gs://www.shingo.institute"]
 # Run 
 # $> gsutil -m iam ch -r allUsers:legacyObjectReader gs://www.shingo.institute
+# Use below instead, it is recursive in directories within bucket
 # $> gsutil -m iam ch allUsers:objectViewer gs://www.shingo.institute
