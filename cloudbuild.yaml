@@ -1,6 +1,6 @@
 steps:
-  - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "-x","cloudbuild.yaml",".", "gs://www.shingo.institute"]
-  - name: gcr.io/cloud-builders/gsutil
-	args: ["-m", "iam", "ch", "allUsers:objectViewer", "gs://www.shingo.institute"]
+- name: gcr.io/cloud-builders/gsutil
+  args: ["-m", "rsync", "-r", "-c", "-d", "-x","cloudbuild.yaml",".", "gs://www.shingo.institute"]
+- name: gcr.io/cloud-builders/gsutil
+  args: ["-m", "iam", "ch", "allUsers:objectViewer", "gs://www.shingo.institute"]
 	
