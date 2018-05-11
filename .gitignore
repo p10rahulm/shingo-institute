@@ -22,3 +22,5 @@ target
 .springBeans
 tmp*
 grapes
+access_key.json
+.travis.yml
