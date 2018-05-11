@@ -24,3 +24,4 @@ tmp*
 grapes
 access_key.json
 .travis.yml
+client-secret.json
