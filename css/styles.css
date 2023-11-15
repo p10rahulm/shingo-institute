@@ -1,0 +1,569 @@
+/* CSS Document */
+
+
+/*----- New start -----*/
+
+
+
+/* text recolor */
+h1, p, a{
+  color: #4DC9C9 !important;
+}
+a {
+	color: #333 !important;
+}
+
+/* button recolor */
+.nav-pills > li.active > a, .btn-primary {
+  background-color: #6C6C6C !important;
+  // feeling like it's a rounded corners kind of day
+  border-color: #6C6C6C !important;
+  border-radius: 25px; 
+}
+
+
+
+/*----- New start -----*/
+.headercomname{
+		float: left;
+    margin-left: 237px;
+    margin-top: -204px;
+	width: 795px;
+	}
+	
+	.headerlogo{
+		padding-right:50px;
+		
+	}
+	
+	.sitewidth  {
+		    
+			margin-left: 10vw;
+			width: 80vw;
+			font-family: serif;
+			
+	}	
+	.myheader {
+			width: 100%;
+			height: 90px;
+	}	
+	.logoholder{
+		width: 50%;
+		height: 90px;
+		float:left;
+		background-color:rgba(211, 228, 236, 0.12);
+	}
+	.logoheader{
+			width: 100%;
+			height: 90px;
+	}
+	.headerinfo {
+		float:right;
+		width: 50%;
+		height:70%;
+		display: block;
+		text-align:right;
+		background-color:#fbfbfb;
+		color:#333333;
+		
+	}
+	.belowheader {
+		float: right;
+		height:100%;
+		width: 50%;
+		background-color:rgba(211, 228, 236, 0.12);
+	}
+	.belowheader li {
+
+	}
+	.separator {
+		clear: both;
+		width: 100%;
+		height: 3px;
+		background-color: #ad312e;
+		display:block
+	}
+	
+	
+	
+	.menuitems {
+		clear: both;
+		margin-right: 40;
+		margin-top: 45;
+		display:block;
+		background-color:green;
+	}
+	
+	div.menuitems ul {
+		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	div.menuitems li {
+		
+		float: right;
+		padding:10 10 10 35;
+
+		
+	}
+	div.menuitems a {
+		font-family:serif;
+		font-size:24 !important;
+		color: #270000 !important;
+		background-color: transparent !important;
+	}
+	div.myheader a {
+		
+		text-decoration: none;
+		color:black;
+	}
+	.mottoimage {
+		width:445;
+		height:360;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.mainbody {
+		
+		width:100%;
+	}
+	.left-menubar {
+		float:left;
+		width:22.5%;
+		font-size:18px;
+		margin-top: 15px;
+		padding:1px;
+		border: 2.5px solid;
+		border-radius: 3vw;
+		background-color:transparent;
+		border-bottom-color:transparent;
+		border-color: #F53E3E !important;
+	}
+	
+	.contactush1{
+		text-align:center;
+	}
+	.contactush2{
+		text-align:center;
+		padding-top: 80px;
+	}
+	p.contactusp {
+		text-align:center !important;
+		font-size:17px !important;
+	}
+	.contactush3{
+		text-align:center;
+		font-size:18px !important;
+		font-style:italic;
+		color: #20558E !important;
+		line-height:1.5;
+	}
+	.contactusimg{
+		position: absolute;
+        right: 30;
+		
+	}
+	@media (min-width: 992px) {
+		.col-md-6 {
+		width: 60% !important;
+		}
+		.col-md-3 {
+		width: 20% !important;
+		}
+	}
+	div.left-menubar li.active a {
+		color: #E20A26 !important;
+		background-color:#DFF0D8 !important;
+		font-size:17;
+	}
+	div.left-menubar a {
+		color: #032B4E !important;
+		background-color:#FFFEFB !important;
+		font-size:17;
+	}
+	div.left-menubar a:hover {
+		color: #05478E !important;
+		background-color:#EEE !important;
+		font-size:17;
+	}
+
+			
+	div.left-menubar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		    
+	}
+	div.left-menubar li {
+		margin: 0;
+		padding: 5px;
+	}
+	.left-menu { 
+	font-size: 15px !important;
+	padding:5px;
+    
+	}
+	.centerbody {
+		float:left;
+		width:55%;
+		margin-left: auto;
+		margin-right:auto;
+		font-family:serif;
+		font-size:16;
+		line-height:1.35;
+	}
+	.associatep{
+		text-align:left
+	}
+	.associateaddress{
+		text-align:center
+	}
+	.associatesubhead{
+		text-align:center
+	}
+	.associateseparator {
+		clear: both;
+		width: 100%;
+		height: 3px;
+		background-color: #F53E3E;
+		display:block
+	}
+	
+	
+	div.centerbody p {
+		font-size: 17px !important;
+		color:#222 !important;
+	}
+	div.centerbody h1 {
+		font-size: 35px !important;
+		color:#00152F !important;
+	}
+	div.centerbody h2 {
+		font-size: 25px !important;
+		color:#010038 !important;
+	}
+	div.centerbody h3 {
+		font-size: 20px !important;
+		color:#20558E !important;
+	}
+	div.centerbody h4 {
+		font-size: 17px !important;
+		font-style:italic;
+		color:#7B1D3F !important;
+	}
+	div.centerbody li {
+		font-size: 17px !important;
+		line-height:180%;
+		color:#031F38 !important;
+		
+		/*color:#065DAB !important;*/
+	}
+	li.centerbody  a{
+		color:#333 ! important;
+	}
+	}
+	div.centerbody a {
+		text-decoration:underline;
+	}
+	div.centerbody a:hover {
+		font-weight:bold;
+		
+	}
+	div.centerbody tr {
+		 background-color: #fff;
+	}
+	div.centerbody td {
+		 padding: 3px;
+		 border: 1px solid #848A9A;
+		 border-collapse: collapse;
+	}
+	div.centerbody table {
+		 width: 100%;
+		 border: 0; 
+		 border-spacing: 1px;
+		 border-collapse: separate;
+		 background-color: #fff;
+		 border: 1px solid #848A9A;
+		 
+	}
+	div.centerbody .btn-large {
+		color:black !important;
+		width:25%;
+		font-size:	25px;
+		text-decoration:none;
+		background-color:#05D660;
+		border-color:#05D660;
+	}
+	div.centerbody.btn-small{
+		float:right !important;
+	}
+	
+	.linktobrochure  a {
+		font-size: 17;
+		color: #840000 !important;
+		
+	}
+	
+	.right-menu {
+		float:right;
+		margin-top: 15px;
+		font-size:18px;
+		font-family:serif;
+		color:#111111;
+		line-height: 20;
+		font-size: 17;
+		border: 2.5px solid;
+		border-radius: 3vw;
+		background-color:transparent;
+		border-bottom-color:transparent;
+		border-color: #F53E3E !important;
+	}
+	.right-menu a {
+		color:#012340 !important;
+		line-height: 1.4;
+		font-size:17;
+		
+		
+	}
+	
+
+	.right-menu p {
+		line-height: 150%;
+
+	}
+	.right-menu-second-set {
+		margin: 30px 0px;
+	}
+	
+	
+	div.right-menu li.active a {
+		color: #E20A26 !important;
+		background-color:#DFF0D8 !important;
+
+	}
+	div.right-menu a {
+		color: #032B4E !important;
+		background-color:#FFFEFB !important;
+
+	}
+	div.right-menu a:hover {
+		color: #05478E !important;
+		background-color:#EEE !important;
+
+	}
+	
+	div.right-menu-first-set ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	div.right-menu-second-set li {
+		list-style-type: none ;
+	}
+	
+	div.right-menu-first-set li {
+		margin: 0;
+		padding: 5px;
+	}
+	.right-menu-first-set-heading {
+		font-size:25px;
+		color:	#75000F;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+		
+	}
+	.footer-separator {
+		margin-top:15px;
+	}
+	.footer-content {
+		margin: 20px 0px;
+		font-family:serif;
+		text-align:center;
+	}
+	.copy-right {
+		font-size:16px !important;
+		font-family:serif;
+	}
+			
+			
+			
+	div.mainbody .jumbotron {
+		    width: 100%;
+			padding: 0;
+			margin: 15 0;
+			background-color:transparent;
+	}
+	div.mainbody .container {
+		    width: 100%;
+    padding: 0;
+    margin: 0;
+	}
+	
+	.imageslist {
+		list-style-type:none;
+		
+		
+	}
+	ul.imageslist li {
+		float:left;
+		padding: 0px 30px;
+		display:inline;
+		width:50%;
+		text-align:center;
+		font-size: 20;
+	}
+	ul.imageslist img {
+		width:150;
+		height:150;
+		padding: 10px 0px;
+	}
+	.img{
+		float:right;
+		margin-top: -200;
+	}
+	.trustimg{
+		float:right;
+	}
+   .ethicsimg{
+	float:right;
+	    margin-top: -140;
+	}
+
+	/*----- Test Jquery Carousel-----*/
+
+
+	body {
+
+		min-height: 300px;
+	}
+	body * {
+		font-family: serif;
+		font-size: 17px;
+		color: #333;
+		line-height: 22px;
+	}
+	 
+	#wrapper {
+		background-color: #fff;
+		border-top: 1px solid #aaa;
+
+		overflow:hidden;
+		margin: 0 15;
+		height:170;
+	}
+	#carousel {
+		/*margin-top: 1px;*/
+	}
+	#carousel div {
+		text-align: center;
+		width: 200px;
+		height: 250px;
+		float: left;
+		position: relative;
+		background-color: rgba(250,250,250,0.7);
+	}
+	#carousel div img {
+		border: none;
+		box-shadow: 5px 5px 2px #aaa;
+	}
+	#carousel div span {
+		/*display: none;*/
+			background-color: rgba(256,250,240,1);
+		color: #333;
+		font-family: serif, Geneva, SunSans-Regular, sans-serif;
+		font-size: 18px;
+		line-height: 15px;
+		display: inline-block;
+		width: 100px;
+		padding: 2px 0;
+		margin: 0 0 0 -50px;
+		position: absolute;
+		top:130;
+		
+		left: 50%;
+		border-radius: 3px;
+	}
+	#carousel div:hover span {
+		background-color: rgba(250,250,250,0.9);
+	}
+	#carousel div:hover img {
+		width:150;
+		height:150;
+		
+	}
+/*----- Test Jquery Carousel-----*/
+	
+	
+	/*----- Tabs -----*/
+	.tabs {
+		width:100%;
+		display:inline-block;
+	}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+	div.right-menu p{
+		margin: 0px 17px;
+	}
+	
+	
+ 
+	.tab-links a {
+		padding:9px 15px;
+		display:inline-block;
+		border-radius:3px 3px 0px 0px;
+		background:#7FB5DA;
+		font-size:16px;
+		font-weight:600;
+		color:#4c4c4c;
+		transition:all linear 0.15s;
+	}
+
+	.tab-links a:hover {
+		background:#a7cce5;
+		text-decoration:none;
+	}
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+	.tab {
+		display:none;
+	}
+
+	.tab.active {
+		display:block;
+	}
+/*--------- social icons ----------*/
+.social-icons img{
+float:right;
+padding-right: 8px ;
+padding-left: 8px ;
+margin-top:-5px ; 
+}
+
+		
