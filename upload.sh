@@ -11,3 +11,9 @@ echo "Images Directory Synced"
 
 gsutil -m rsync ./ gs://www.shingo.institute
 echo "Base Directory Synced"
+
+echo "Updating Github Repo"
+git add -A
+git commit -m "content changes"
+git push
+echo "Updated Github Repo"
